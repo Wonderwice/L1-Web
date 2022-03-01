@@ -7,6 +7,7 @@
         <producteur prenom="Jaimie" nom="Alexander"/>
         <producteur prenom="Victoria" nom="Alonso"/>
         <producteur prenom="Craig" nom="Kyle"/>
+        <budget>150 000 000 $</budget>
         <realisateur prenom="Kenneth" nom="Branagh"/>
         <scenariste prenom="Ashley" nom="Miller"/>
         <scenariste prenom="Zack" nom="Stentz"/>
@@ -56,6 +57,5 @@
         <nomination type="Teen Choice Awards 2011">révélation masculine de l'année pour Chris Hemsworth</nomination>
         <nomination type="MTV Movie Awards 2012">meilleur héros pour Chris Hemsworth</nomination>
     </distinctions>
-    <logo src="thor-logo.png" alt="Logo du film"/>
     <photo src="thor-image.jpg" alt="Thor"/>
 </movie>
