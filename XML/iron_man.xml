@@ -53,6 +53,5 @@
         <nomination type="MTV Movie Awards 2009">Meilleur film</nomination>
         <nomination type="MTV Movie Awards 2009">Meilleur acteur pour Robert Downey Jr.</nomination>
     </distinctions>
-    <logo src="iron_logo.png" alt="Logo du film"/>
     <photo src="iron_man.png" alt="Iron Man"/>
 </movie>

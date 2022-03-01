@@ -1,0 +1,12 @@
+#core{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* #core{
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+
