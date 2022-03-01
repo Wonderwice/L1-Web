@@ -1,12 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, system-ui;
+    margin: 0;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background: #ec1d24;
+    color: #fefefe;
+}
+
 #core{
     display: flex;
     flex-wrap: wrap;
 }
 
-* #core{
-    margin: auto;
+#fiche_technique{
+    flex: 15%;
+    order: 1;
 }
-header{
-    text-align: center;
+#bo{
+    flex: 30%;
+    order: 3;
 }
 
+aside{
+    flex: 50%;
+    order: 2;
+    display: flex;
+}
+
+#tqt_on_verra{
+    display: flex;
+    flex-flow: column;
+    flex: 66%;
+}
+
+#box_office{
+    order: 4;
+    margin: 5px;
+}
+
+#note{
+    order:5;
+    margin: 5px;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+    align-self: center;
+}
+
+footer{
+    background-color: #151515;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    color: #ec1d24;
+    text-decoration: none;
+}
