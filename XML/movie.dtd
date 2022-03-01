@@ -8,7 +8,7 @@
          prenom  CDATA #REQUIRED
          nom     CDATA #REQUIRED">
 
-<!ELEMENT movie (fiche_technique, synopsis, bande_originale, note?, box_office, distinctions*, logo, photo+)>
+<!ELEMENT movie (fiche_technique, synopsis, bande_originale, note?, box_office, distinctions*, photo+)>
 <!ATTLIST movie
           %id;
           annee_sortie %year;  #REQUIRED
@@ -83,13 +83,6 @@
 <!ATTLIST recompense
           %id;
           type  CDATA  #REQUIRED>
-
-
-<!ELEMENT logo EMPTY>
-<!ATTLIST logo
-          %id;
-          src   CDATA #REQUIRED
-          alt   CDATA #REQUIRED>
 
 <!ELEMENT photo EMPTY>
 <!ATTLIST photo
