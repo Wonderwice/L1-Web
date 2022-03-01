@@ -1,0 +1,8 @@
+h1{
+    font-family: 'IronFont';
+}
+
+@font-face{
+    font-family: "IronFont";
+    src: url("Fonts/Avengeance-E1zj.otf");
+}
