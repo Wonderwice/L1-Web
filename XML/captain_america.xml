@@ -4,6 +4,7 @@
     <fiche_technique>
         <producteur prenom="Stephen" nom="Broussard"/>
         <producteur prenom="Kevin" nom="Feige"/>
+        <budget>140 000 000 $</budget>
         <realisateur prenom="Joe" nom="Johnston"/>
         <scenariste prenom="Christopher" nom="Markus"/>
         <scenariste prenom="Stephen" nom="McFeely"/>
