@@ -53,9 +53,7 @@ img {
 .grid-container {
     display: grid;
     grid-template-areas:
-    'header header header header header header'
-    'left middle-left middle-left middle-right middle-right right'
-    'footer footer footer footer footer footer';
+    'left middle-left middle-left middle-right middle-right right';
     grid-column-gap: 10px;
     height: 80%;
 }
