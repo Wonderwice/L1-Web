@@ -9,7 +9,7 @@ body {
 
 header{
     grid-area: header;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
     background: #ec1d24;
     color: #fefefe;
