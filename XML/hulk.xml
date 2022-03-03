@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie SYSTEM "movie.dtd">
+<movie annee_sortie="2008" durée="112min">
+    <fiche_technique>
+        <producteur prenom="Avi" nom="Arad"/>
+        <producteur prenom="Kevin" nom="Feige"/>
+        <producteur prenom="Gale" nom="Anne Hurd"/>
+        <budget>150 000 000 $</budget>
+        <realisateur prenom="Louis" nom="Leterrier"/>
+        <scenariste prenom="Zak" nom="Penn"/>
+        <scenariste prenom="Edward" nom="Norton"/>
+        <scenariste prenom="Louis" nom="Letterier"/>
+        <main_actors>
+            <actor prenom="Edward" nom="Norton"/>
+            <actor prenom="Liv" nom="Tyler"/>
+            <actor prenom="Tim" nom="Roth"/>
+            <actor prenom="William" nom="Hurt"/>
+        </main_actors>
+        <société_prod>Marvel Studios</société_prod>
+        <société_prod>Valhalla Motion Pictures</société_prod>
+    </fiche_technique>
+    <synopsis>Le scientifique Bruce Banner cherche désespérément un antidote aux radiations gamma qui ont créé Hulk.
+        Il vit dans l'ombre, toujours amoureux de la belle Betty Ross et parcourt la planète à la recherche d'un remède.
+        La force destructrice de Hulk attire le Général Thunderbolt Ross et son bras droit Blonsky qui rêvent de
+        l'utiliser à des fins militaires. Ils tentent de développer un sérum pour créer des soldats surpuissants.
+        De retour aux Etats-Unis, Bruce Banner se découvre un nouvel ennemi. Après avoir essayé le sérum expérimental,
+        Blonsky est devenu L'Abomination, un monstre incontrôlable dont la force pure est même supérieure à celle de Hulk.
+        Devenu fou, il s'est transformé en plein coeur de New York.
+        Pour sauver la ville de la destruction totale, Bruce Banner va devoir faire appel au monstre qui sommeille en lui...</synopsis>
+    <bande_originale>
+        <son numero="1" titre="The Arctic" longeur="2:47"/>
+        <son numero="2" titre="Main Title" longeur="2:39"/>
+        <son numero="3" titre="Rocinha Favela" longeur="3:11"/>
+        <son numero="4" titre="A Drop of Blood" longeur="1:35"/>
+        <son numero="5" titre="The Flower" longeur="2:49"/>
+        <son numero="6" titre="Ross' Team" longeur="1:33"/>
+        <son numero="7" titre="Mr. Blue" longeur="1:03"/>
+        <son numero="8" titre="Favela Escape" longeur="3:35"/>
+        <son numero="9" titre="It Was Banner" longeur="1:32"/>
+        <son numero="10" titre="That Is the Target" longeur="5:34"/>
+        <son numero="11" titre="Bruce Goes Home" longeur="1:25"/>
+        <son numero="12" titre="Ross and Blonsky" longeur="3:15"/>
+        <son numero="13" titre="Return to Culver University" longeur="2:39"/>
+        <son numero="14" titre="The Lab" longeur="1:17"/>
+        <son numero="15" titre="Reunion" longeur="3:37"/>
+        <son numero="16" titre="The Data/The Vial" longeur="1:20"/>
+        <son numero="17" titre="They're Here" longeur="3:07"/>
+        <son numero="18" titre="Give Him Everything You've Got" longeur="6:08"/>
+        <son numero="19" titre="Bruce Can't Stay" longeur="1:54"/>
+        <son numero="20" titre="First Injection" longeur="1:03"/>
+        <son numero="21" titre="Is It Safe?" longeur="1:07"/>
+        <son numero="22" titre="Hulk Theme" longeur="3:59"/>
+    </bande_originale>
+    <note>61</note>
+    <box_office>264 770 996 $</box_office>
+    <photo src="hulk.jpg" alt="Hulk"/>
+</movie>

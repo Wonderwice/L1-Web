@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie SYSTEM "movie.dtd">
+<movie annee_sortie="2010" durée="126min">
+    <fiche_technique>
+        <producteur prenom="Avi" nom="Arad"/>
+        <producteur prenom="Kevin" nom="Feige"/>
+        <budget>140 000 000 $</budget>
+        <realisateur prenom="Jon" nom="Favreau"/>
+        <scenariste prenom="Matt" nom="Holloway"/>
+        <scenariste prenom="Art" nom="Marcum"/>
+        <scenariste prenom="Mark" nom="Fergus"/>
+        <scenariste prenom="Hawk" nom="Ostby"/>
+        <scenariste prenom="John" nom="August"/>
+        <main_actors>
+            <actor prenom="Robert" nom="Downey Jr."/>
+            <actor prenom="Gwyneth" nom="Paltrow"/>
+            <actor prenom="Terrence" nom="Howard"/>
+            <actor prenom="Jeff" nom="Bridges"/>
+        </main_actors>
+        <société_prod>Marvel Studios</société_prod>
+        <société_prod>Fairview Entertainment</société_prod>
+    </fiche_technique>
+    <synopsis>Tony Stark est un industriel milliardaire et un inventeur de génie qui est kidnappé et forcé de construire une arme dévastatrice.
+              Au lieu de cela, utilisant son intelligence et son ingéniosité, Tony construit une armure de haute technologie et échappe à la captivité.
+              Lorsqu'il découvre un complot néfaste aux implications mondiales, il enfile sa puissante armure et jure de protéger le monde en tant qu'Iron Man.</synopsis>
+    <bande_originale>
+        <son numero="1" titre="Driving With The Top Down" longeur="3:10"/>
+        <son numero="2" titre="Iron Man (2008 version) (John O'Brien and Rick Boston)" longeur="1:05"/>
+        <son numero="3" titre="Merchant of Death" longeur="2:00"/>
+        <son numero="4" titre="Trinkets to Kill a Prince" longeur="3:08"/>
+        <son numero="5" titre="Mark I" longeur="3:54"/>
+        <son numero="6" titre="Fireman" longeur="2:09"/>
+        <son numero="7" titre="Vacation's Over" longeur="3:35"/>
+        <son numero="8" titre="Golden Egg" longeur="4:13"/>
+        <son numero="9" titre="Damn Kid (DJ Boborobo)" longeur="1:13"/>
+        <son numero="10" titre="Mark II" longeur="2:49"/>
+        <son numero="11" titre="Extra Dry, Extra Olives" longeur="1:44"/>
+        <son numero="12" titre="Iron Man" longeur="3:33"/>
+        <son numero="13" titre="Gulmira" longeur="4:06"/>
+        <son numero="14" titre="Are Those Bullet Holes ?" longeur="2:00"/>
+        <son numero="15" titre="Section 16" longeur="2:34"/>
+        <son numero="16" titre="Iron Monger" longeur="4:45"/>
+        <son numero="17" titre="Arc Reactor" longeur="3:56"/>
+        <son numero="18" titre="Institutionalized (Suicidal Tendencies)" longeur="3:49"/>
+        <son numero="19" titre="Iron Man" longeur="0:21"/>
+    </bande_originale>
+    <note>74</note>
+    <box_office>585 366 247 $</box_office>
+    <distinctions>
+        <nomination type="Teen Choice Awards 2008">Meilleur acteur dans un film d'action/aventure pour Robert Downey Jr.</nomination>
+        <nomination type="Teen Choice Awards 2008">Meilleure actrice dans un film d'action/aventure pour Gwyneth Paltrow</nomination>
+        <nomination type="Teen Choice Awards 2008">Meilleur méchant au cinéma pour Jeff Bridges</nomination>
+        <nomination type="MTV Movie Awards 2009">Meilleur film</nomination>
+        <nomination type="MTV Movie Awards 2009">Meilleur acteur pour Robert Downey Jr.</nomination>
+    </distinctions>
+    <photo src="iron_man.png" alt="Iron Man"/>
+</movie>

@@ -1,0 +1,161 @@
+/***************
+* Element body *
+***************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*************
+* Element h1 *
+*************/
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+    line-height: 1.3;
+}
+
+/*************
+* Element h2 *
+*************/
+
+h2 {
+    font-size: 1.75em;
+}
+
+/*******************
+* Après element h2 *
+*******************/
+h2::after{
+    content: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ and well played ;)';
+    font-size: 1px;
+    color: #fefefe;
+}
+
+/*****************
+* Element header *
+*****************/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    background: #ec1d24;
+    color: #fefefe;
+    height: 10%;
+}
+
+/******************************
+* Liens dans l'element header *
+******************************/
+
+header a{
+    margin: 10px;
+    color: #151515;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/***********************************************
+*Liens de header lorsque pointés par la souris *
+***********************************************/
+
+header a:hover{
+    color: aqua;
+}
+
+/********************************
+* Images contenu l'attribut alt *
+********************************/
+
+img[alt] {
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    align-self: center;
+    margin-top: 80px;
+}
+
+/**************************************
+* La grille qui contient mise en page *
+**************************************/
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'left middle-left middle-left middle-right middle-right right';
+    grid-column-gap: 10px;
+    height: 80%;
+}
+
+/*******************************************
+* Les différents emplacements de la grille *
+*******************************************/
+
+#left,
+#middle-left,
+#middle-right,
+#right {
+    padding: 5px;
+}
+
+/*********************************
+* Element de gauche de la grille *
+*********************************/
+
+#left {
+    grid-area: left;
+}
+
+/****************************************
+* Premier enfant de l'element de gauche *
+****************************************/
+
+#left:first-child{
+    margin-bottom: 40px;
+}
+
+/******************************************************************
+* Liste non ordonnée et contenu de liste dans l'element de gauche *
+******************************************************************/
+
+#left > ul, li{
+    list-style: none;
+}
+
+/*****************************
+* Element du milieu à gauche *
+*****************************/
+
+#middle-left{
+    display: flex;
+    flex-flow: column;
+    grid-area: middle-left;
+}
+
+/*****************************
+* Element du milieu à droite *
+*****************************/
+
+#middle-right {
+    grid-area: middle-right;
+}
+
+/********************
+* Element de droite *
+********************/
+
+#right {
+    grid-area: right;
+}
+
+/*****************************************************
+* Entête du tableau contenu dans l'élément de droite *
+*****************************************************/
+
+#right table thead{
+    font-style: italic;
+}
