@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="Normalement c bon">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/captain-america-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/hulk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/iron_man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/marvel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Images/thor-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/alternative_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/main_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/captain_america.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/hulk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/iron_man.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/movie.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/XML/thor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/index.xhtml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XHTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25sPhcQNo5bVrzonRif3Tckvx5j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="" />
+      <created>1646312940771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646312940771</updated>
+      <workItem from="1646312941857" duration="3941000" />
+      <workItem from="1646320673469" duration="2429000" />
+      <workItem from="1646323124511" duration="398000" />
+      <workItem from="1646323530114" duration="35000" />
+      <workItem from="1646324759159" duration="261000" />
+    </task>
+    <task id="LOCAL-00001" summary="add new files in Miscellaneous">
+      <created>1646320743778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646320743778</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Normalement c bon">
+      <created>1646324816100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646324816100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/L1-Web" />
+    </ignored-roots>
+    <MESSAGE value="add new files in Miscellaneous" />
+    <MESSAGE value="Normalement c bon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Normalement c bon" />
+  </component>
+</project>
