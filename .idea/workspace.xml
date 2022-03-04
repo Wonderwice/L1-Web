@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" afterDir="false" />
+    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="correction images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Images/captain-america-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Images/hulk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Images/hulk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Images/iron_man.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Images/marvel.png" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Images/marvel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Images/thor-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Styles/alternative_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Styles/alternative_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,7 @@
       <workItem from="1646323124511" duration="398000" />
       <workItem from="1646323530114" duration="35000" />
       <workItem from="1646324759159" duration="261000" />
+      <workItem from="1646340678963" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -74,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646324816100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="correction images">
+      <created>1646325870731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646325870731</updated>
+    </task>
+    <task id="LOCAL-00004" summary="correction images">
+      <created>1646325905339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646325905339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +105,7 @@
     </ignored-roots>
     <MESSAGE value="add new files in Miscellaneous" />
     <MESSAGE value="Normalement c bon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Normalement c bon" />
+    <MESSAGE value="correction images" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction images" />
   </component>
 </project>

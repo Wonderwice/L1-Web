@@ -1,0 +1,12 @@
+@import "/L1-Web/Styles/main_style.css";
+
+body{
+    font-size: 175%;
+}
+header{
+    background-color: #A9A9A9;
+}
+
+img{
+    display: none;
+}
