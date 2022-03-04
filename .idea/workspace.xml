@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="correction images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Styles/alternative_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Styles/alternative_style.css" afterDir="false" />
+    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="style malvoyant">
+      <change beforePath="$PROJECT_DIR$/L1-Web/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Styles/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <workItem from="1646323124511" duration="398000" />
       <workItem from="1646323530114" duration="35000" />
       <workItem from="1646324759159" duration="261000" />
-      <workItem from="1646340678963" duration="2608000" />
+      <workItem from="1646340678963" duration="2863000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -82,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646325905339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="style malvoyant">
+      <created>1646421303326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646421303326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +111,7 @@
     <MESSAGE value="add new files in Miscellaneous" />
     <MESSAGE value="Normalement c bon" />
     <MESSAGE value="correction images" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction images" />
+    <MESSAGE value="style malvoyant" />
+    <option name="LAST_COMMIT_MESSAGE" value="style malvoyant" />
   </component>
 </project>
