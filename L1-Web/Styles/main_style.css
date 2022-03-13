@@ -1,82 +1,110 @@
-/***************
-* Element body *
-***************/
+/* Auteur: Alexeï Czornyj */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+body{
+    margin: 0 auto;
 }
 
-/*************
-* Element h1 *
-*************/
-
-h1 {
-    font-size: 2em;
-    margin: 0 0 0.5em 0;
-    line-height: 1.3;
+table {
+    padding: 10px;
 }
 
-/*************
-* Element h2 *
-*************/
-
-h2 {
-    font-size: 1.75em;
+a[href]{
+    text-decoration: none;
+    color: inherit;
 }
 
-/*******************
-* AprÃ¨s element h2 *
-*******************/
-h2::after{
-    content: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ and well played ;)';
-    font-size: 1px;
-    color: #fefefe;
+header.en-tete {
+    background: url('../Images/background.jpg');
+    background-size: cover;
+    height: 20vh;
+    padding: 25px;
 }
-
-/*****************
-* Element header *
-*****************/
 
 header{
     display: flex;
-    justify-content: space-between;
-    padding: 1px;
-    background: #ec1d24;
-    color: #fefefe;
-    height: 10%;
+    align-items: center;
 }
 
-/******************************
-* Liens dans l'element header *
-******************************/
-
-header a{
-    margin: 10px;
-    color: #151515;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-/***********************************************
-*Liens de header lorsque pointÃ©s par la souris *
-***********************************************/
-
-header a:hover{
-    color: aqua;
-}
-
-/********************************
-* Images contenu l'attribut alt *
-********************************/
-
-img[alt] {
+header img {
     height: auto;
     width: auto;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 350px;
+    max-height: 350px;
     align-self: center;
-    margin-top: 80px;
+    margin-top: auto;
+}
+
+#main-title{
+    color: black;
+    font-size: 60px;
+    padding: 10px 50px;
+    font-weight: 100;
+}
+
+#main-title::before{
+    all: unset;
+}
+
+/* menu de navigation */
+
+nav ul{
+    display: flex;
+    width: 150%;
+    justify-content: space-between;
+}
+
+nav > ul > li{
+    font-size: 150%;
+    color: white;
+}
+
+h2, h3{
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+}
+
+h3{
+    font-size: 35px;
+    padding: 5px;
+}
+
+h2::before, h3::before{
+    content: "";
+    position: absolute;
+    background-color: #ff0000;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+h3::before{
+    height: 5px;
+}
+
+.fiches{
+    padding-left: 30px;
+}
+
+.affiches{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.affiche {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+a img:hover{
+    height: 510px;
+    width: 360px;
+}
+
+footer p{
+    text-align: center;
 }
 
 /**************************************
@@ -92,7 +120,7 @@ img[alt] {
 }
 
 /*******************************************
-* Les diffÃ©rents emplacements de la grille *
+* Les différents emplacements de la grille *
 *******************************************/
 
 #left,
@@ -119,7 +147,7 @@ img[alt] {
 }
 
 /******************************************************************
-* Liste non ordonnÃ©e et contenu de liste dans l'element de gauche *
+* Liste non ordonnée et contenu de liste dans l'element de gauche *
 ******************************************************************/
 
 #left > ul, li{
@@ -129,7 +157,7 @@ img[alt] {
 }
 
 /*****************************
-* Element du milieu Ã  gauche *
+* Element du milieu à gauche *
 *****************************/
 
 #middle-left{
@@ -139,7 +167,7 @@ img[alt] {
 }
 
 /*****************************
-* Element du milieu Ã  droite *
+* Element du milieu à droite *
 *****************************/
 
 #middle-right {
@@ -155,9 +183,18 @@ img[alt] {
 }
 
 /*****************************************************
-* EntÃªte du tableau contenu dans l'Ã©lÃ©ment de droite *
+* Entête du tableau contenu dans l'élément de droite *
 *****************************************************/
 
 #right table thead{
     font-style: italic;
+}
+
+#middle-right img{
+    padding-top: 30px;
+}
+
+div ol li{
+    font-size: large;
+    padding: 5px;
 }
