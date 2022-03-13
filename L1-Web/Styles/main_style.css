@@ -1,29 +1,60 @@
 /* Auteur: Alexeï Czornyj */
 
+/*******************
+* Corps de la page *
+********************/
 body{
     margin: 0 auto;
 }
 
+/*********************
+* Tableau de données *
+**********************/
 table {
     padding: 10px;
 }
+/****************************************************
+* Listes ordonnées, non ordonnées et leurs éléments *
+****************************************************/
+
+ul, ol, li{
+    list-style: none;
+}
+
+/***********************************
+* Elements contenus dans une liste *
+***********************************/
+
+ol li{
+    font-size: large;
+    padding: 5px;
+}
+
+/**************************************
+* Lien contenant l'attribut href *
+**************************************/
 
 a[href]{
     text-decoration: none;
     color: inherit;
 }
 
-header.en-tete {
+/***********
+*  header *
+***********/
+
+header {
     background: url('../Images/background.jpg');
     background-size: cover;
     height: 20vh;
     padding: 25px;
-}
-
-header{
     display: flex;
     align-items: center;
 }
+
+/*****************************
+* Image contenue dans header *
+******************************/
 
 header img {
     height: auto;
@@ -34,18 +65,9 @@ header img {
     margin-top: auto;
 }
 
-#main-title{
-    color: black;
-    font-size: 60px;
-    padding: 10px 50px;
-    font-weight: 100;
-}
-
-#main-title::before{
-    all: unset;
-}
-
-/* menu de navigation */
+/***********************************
+* Liste dans le menu de navigation *
+***********************************/
 
 nav ul{
     display: flex;
@@ -53,10 +75,18 @@ nav ul{
     justify-content: space-between;
 }
 
+/***********************************************************************
+* Elements contenus dans une liste contenue dans un menu de navigation *
+***********************************************************************/
+
 nav > ul > li{
     font-size: 150%;
     color: white;
 }
+
+/***************************
+* Titres de niveaux 2 et 3 *
+***************************/
 
 h2, h3{
     font-size: 50px;
@@ -64,10 +94,18 @@ h2, h3{
     position: relative;
 }
 
+/*********************
+* Titres de niveau 3 *
+*********************/
+
 h3{
     font-size: 35px;
     padding: 5px;
 }
+
+/*****************************************************************
+* Propriété de l'espace situé avant les titres de niveaux 2 et 3 *
+*****************************************************************/
 
 h2::before, h3::before{
     content: "";
@@ -78,123 +116,19 @@ h2::before, h3::before{
     bottom: 0;
 }
 
+/***********************************************************
+* Propriété de l'espace situé avant les titres de niveau 3 *
+***********************************************************/
+
 h3::before{
     height: 5px;
 }
 
-.fiches{
-    padding-left: 30px;
-}
+/***************
+* Pied de page *
+***************/
 
-.affiches{
-    min-height: 500px;
+footer{
     display: flex;
-    flex-wrap: wrap;
-}
-
-.affiche {
-    min-width: 350px;
-    height: 500px;
-    flex: 1;
-}
-
-a img:hover{
-    height: 510px;
-    width: 360px;
-}
-
-footer p{
-    text-align: center;
-}
-
-/**************************************
-* La grille qui contient mise en page *
-**************************************/
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-    'left middle-left middle-left middle-right middle-right right';
-    grid-column-gap: 10px;
-    height: 80%;
-}
-
-/*******************************************
-* Les différents emplacements de la grille *
-*******************************************/
-
-#left,
-#middle-left,
-#middle-right,
-#right {
-    padding: 5px;
-}
-
-/*********************************
-* Element de gauche de la grille *
-*********************************/
-
-#left {
-    grid-area: left;
-}
-
-/****************************************
-* Premier enfant de l'element de gauche *
-****************************************/
-
-#left:first-child{
-    margin-bottom: 40px;
-}
-
-/******************************************************************
-* Liste non ordonnée et contenu de liste dans l'element de gauche *
-******************************************************************/
-
-#left > ul, li{
-    list-style: none;
-
-
-}
-
-/*****************************
-* Element du milieu à gauche *
-*****************************/
-
-#middle-left{
-    display: flex;
-    flex-flow: column;
-    grid-area: middle-left;
-}
-
-/*****************************
-* Element du milieu à droite *
-*****************************/
-
-#middle-right {
-    grid-area: middle-right;
-}
-
-/********************
-* Element de droite *
-********************/
-
-#right {
-    grid-area: right;
-}
-
-/*****************************************************
-* Entête du tableau contenu dans l'élément de droite *
-*****************************************************/
-
-#right table thead{
-    font-style: italic;
-}
-
-#middle-right img{
-    padding-top: 30px;
-}
-
-div ol li{
-    font-size: large;
-    padding: 5px;
+    justify-content: space-around;
 }

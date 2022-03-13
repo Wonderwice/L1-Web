@@ -1,0 +1,51 @@
+@import "main_style.css";
+
+/*****************************************************************************
+* Propriété de l'espace situé avant l'élément identifié comme titre principal*
+*****************************************************************************/
+
+#main-title::before{
+    all: unset;
+}
+/******************************************
+* Element identifié comme titre principal *
+******************************************/
+
+#main-title{
+    color: black;
+    font-size: 60px;
+    padding: 10px 50px;
+    font-weight: 100;
+}
+
+/***********************************************************************
+* Comportement d'une image contenue dans un lien lorsqu'on la survole *
+**********************************************************************/
+
+a img:hover{
+    height: 510px;
+    width: 360px;
+}
+
+/****************************
+* Elements de classe fiches *
+****************************/
+
+.fiches{
+    padding-left: 30px;
+}
+
+/******************************
+* Elements de classe affiches *
+******************************/
+.affiches{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/******************************
+* Elements de classe affiche *
+*****************************/
+.affiche {
+    flex: 1;
+}
