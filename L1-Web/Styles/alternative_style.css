@@ -1,12 +1,119 @@
-@import "/L1-Web/Styles/main_style.css";
+/* Auteur: Alexeï Czornyj */
+
+/*****************
+* L'élément body *
+*****************/
 
 body{
-    font-size: 175%;
-}
-header{
-    background-color: #A9A9A9;
+    font-size: xx-large;
 }
 
-img{
+/************
+* Element p *
+************/
+p{
+    padding: 5px;
+}
+/**************
+* L'élément a *
+**************/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/****************************************************
+* Listes ordonnées, non ordonnées et leurs éléments *
+****************************************************/
+
+ol, ul, li{
+    list-style: none;
+}
+
+/****************************************************
+* Listes ordonnées, non ordonnées et leurs éléments *
+****************************************************/
+
+header, nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/******************
+* menu navigation *
+******************/
+nav{
+    width: 80%;
+}
+
+/*********************************
+* Images contenues dans l'entête *
+*********************************/
+header img{
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+    align-self: center;
+    margin-top: auto;
+}
+
+/******************************
+* Elements de classe affiches *
+******************************/
+.affiches{
+    display: flex;
+    flex-flow: column;
+    padding: 40px;
+}
+
+/*****************************
+* Elements de classe affiche *
+*****************************/
+.affiche{
+    padding: 10px;
+}
+
+/*********************************************
+* Images dans les éléments de classe affiche *
+*********************************************/
+.affiche img{
     display: none;
+}
+
+/*******************************************************
+* Element situé juste après le premier élément affiche *
+*******************************************************/
+.affiche:first-child::after{
+    content:"Lien vers la fiche de Iron Man";
+}
+
+/********************************************************
+* Element situé juste après le deuxième élément affiche *
+********************************************************/
+.affiche:nth-child(2)::after{
+    content:"Lien vers la fiche de Hulk";
+}
+
+/*********************************************************
+* Element situé juste après le troisième élément affiche *
+*********************************************************/
+.affiche:nth-child(3)::after{
+    content: "Lien vers la fiche de Thor";
+}
+
+/*******************************************************
+* Element situé juste après le dernier élément affiche *
+*******************************************************/
+.affiche:last-child::after{
+    content: "Lien vers la fiche de Captain America";
+}
+
+/**********************************
+* Enfant de type a d'un élément p *
+**********************************/
+
+p > a{
+    border: black solid 1px;
 }

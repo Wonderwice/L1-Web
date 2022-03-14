@@ -1,5 +1,6 @@
-@import "main_style.css";
+/* Auteur: Alexeï Czornyj */
 
+@import "main_style.css";
 
 /**************************************
 * La grille qui contient mise en page *
@@ -8,7 +9,7 @@
 .grid{
     display: grid;
     grid-template-areas:
-    'left middle-left middle-left middle-right middle-right right';
+    'left middle-left middle-right right';
     grid-column-gap: 10px;
     height: 80%;
 }

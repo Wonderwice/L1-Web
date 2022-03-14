@@ -1,2 +1,9 @@
-Main style : le style classique
-Alternative style : le style alternatif
+Sytle principal :
+    Commun : main_style.css
+    Fiches : fiche_style.css
+    Index : index_style.css
+Style alternatif :
+    Commun : alternative_style.css
+    Fiches : alternative_fiche.css
+
+Le peu de similitude entre main_style.css et alternative_style.css ne justifiait pas la création d'un fichier commun.

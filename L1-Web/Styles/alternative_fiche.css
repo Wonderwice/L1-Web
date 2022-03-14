@@ -1,0 +1,62 @@
+/* Auteur: Alexeï Czornyj */
+
+@import "alternative_style.css";
+
+/**************************************
+* La grille qui contient mise en page *
+**************************************/
+
+.grid{
+    display: grid;
+    grid-template:
+    'left right' 50%
+    'bottom bottom' 50%
+    / 30% 70%;
+    grid-column-gap: 10px;
+}
+
+/************************************
+* L'élément identifié par l'id left *
+************************************/
+
+#left {
+    grid-area: left;
+}
+
+/*******************************************
+* L'élément identifié par l'id middle-left *
+*******************************************/
+
+#middle-left {
+    grid-area: right;
+}
+
+/********************************************
+* L'élément identifié par l'id middle-right *
+********************************************/
+#middle-right{
+    display: none;
+}
+
+/*************************************
+* L'élément identifié par l'id right *
+*************************************/
+#right {
+    grid-area: bottom;
+}
+
+/*************************
+* L'élément pied de page *
+*************************/
+footer{
+    text-align: center;
+    font-size: 150%;
+}
+
+/**************************************
+* Table Data, Table Header ,Table row *
+**************************************/
+td, th, tr{
+    padding: 10px;
+    border: black solid 1px;
+}
