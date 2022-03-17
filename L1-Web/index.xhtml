@@ -5,6 +5,7 @@
     <meta name="author" content="Alexeï Czornyj et Styven Drui"/>
     <title> Films du MCU </title>
     <link rel="stylesheet" type="text/css" media="all" href="Styles/index_style.css"/>
+    <script src="Javascript/script.js"></script>
 </head>
 <body>
 <header>
@@ -19,28 +20,26 @@
             </ul>
         </nav>
 </header>
-<h2 id="main-title">Vous trouverez ici les premiers films de l'équipe Avengers</h2>
-<p>Ce site contient différentes fiches récapitulatives des premiers films Marvel,
-    nous avons choisi de les faire sur les héros qui constituent la première équipe des Avengers.
-    Vous retrouvez également un livre d'Or pour nous laisser un petit mot, ainsi qu'un formulaire pour nous proposer d'autres fiches.
-</p>
-<section class="fiches">
-    <h2>Nos fiches récap</h2>
-    <div class="affiches">
-        <a href="Content/Collection/iron_man.xhtml" class="affiche ">
-            <img src="Images/iron-man.jpg" alt="Affiche du film Iron Man"/>
-        </a>
-        <a href="Content/Collection/hulk.xhtml" class="affiche">
-            <img src="Images/hulk.jpg" alt="Affiche du film Hulk"/>
-        </a>
-        <a href="Content/Collection/thor.xhtml" class="affiche">
-            <img src="Images/thor.jpg" alt="Affiche du film Thor"/>
-        </a>
-        <a href="Content/Collection/captain_america.xhtml" class="affiche">
-            <img src="Images/captain-america.jpg" alt="Affiche du film Captain America"/>
-        </a>
-    </div>
-</section>
+<main>
+    <aside>
+        <h2 id="main-title">Vous trouverez ici les premiers films de l'équipe Avengers</h2>
+        <p>Ce site contient différentes fiches récapitulatives des premiers films Marvel,
+            nous avons choisi de les faire sur les héros qui constituent la première équipe des Avengers.
+            Vous retrouvez également un livre d'Or pour nous laisser un petit mot, ainsi qu'un formulaire pour nous proposer d'autres fiches.
+        </p>
+    </aside>
+    <section class="fiches">
+        <h2>Nos fiches récap</h2>
+        <div class="affiches">
+            <p onclick="pictureLeft()"><img src="Images/fleche-gauche.png" alt="fleche vers la gauche"/></p>
+            <a href="Content/Collection/iron_man.xhtml" class="affiche ">
+                <img id="img" name="Iron Man" src="Images/iron-man.jpg" alt="Affiche du film Iron Man"/>
+            </a>
+            <p onclick="pictureRight()"><img src="Images/fleche-droite.png" alt="fleche vers la droite"/></p>
+        </div>
+    </section>
+</main>
+
 <footer>
     <p>Et ci-joint nos liens pour nous envoyer un mail : <a href="mailto:alexei.czornyj@etu.univ-poitiers.fr">Alexeï</a> et <a href="mailto:styven.drui@etu.univ-poitiers fr">Styven</a></p>
 </footer>
