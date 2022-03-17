@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="add links">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_14_41_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_14_41__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_15_52_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_15_52__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +60,9 @@
       <workItem from="1646324759159" duration="261000" />
       <workItem from="1646340678963" duration="3978000" />
       <workItem from="1646667374380" duration="239000" />
+      <workItem from="1647440233899" duration="19000" />
+      <workItem from="1647440255260" duration="54000" />
+      <workItem from="1647511287396" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
