@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Alexeï Czornyj et Styven Drui"/>
+    <title> Films du MCU </title>
+    <link rel="stylesheet" type="text/css" media="all" href="../../Styles/livre_or.css"/>
+    <script src="../../Javascript/script.js"></script>
+</head>
+<body>
+<header>
+    <img src="../../Images/marvel.png" alt="Logo Marvel"/>
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="../Miscellaneous/sitemap.xhtml">Plan du site</a></li>
+            <li><a href="index.html">Proposez nous des fiches</a></li>
+            <li><a href="../Miscellaneous/synoptic.xhtml">Récapitulatif</a></li>
+            <li><a href="livre_or.xhtml">Livre d'Or</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form action="http://voca.univ-poitiers.fr/~subrenat/cours_web/traitement.php" method="post">
+        <fieldset>
+            <label for="name">Votre nom: </label>
+            <input type="text" id="name" name="nom" onblur="checkName()"/>
+            <label for="firstname">Votre prénom: </label>
+            <input type="text" id="firstname" name="prenom" onblur="checkFirstName()"/>
+            Avez-vous aimé notre travail ?
+            <label for="YES">Oui</label>
+            <input type="radio" id="YES" name="avis" onblur="checkLike()"/>
+            <label for="NO">Non</label>
+            <input type="radio" id="NO" name="avis" onblur="checkLike()"/>
+            <label for="privacy">Votre commentaire doit être :</label>
+            <select id="privacy" name="anonymat" onblur="checkPrivacy()">
+                <option>...</option>
+                <option>Public</option>
+                <option>Anonyme</option>
+                <option>Peu importe</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="comment">Votre commentaire doit être :</label>
+            <textarea id="comment" rows="10" cols="40" name="texte" onblur="checkNote()">Vous pouvez écrire votre note ici. ;)</textarea>
+        </fieldset>
+        <button type="submit">Envoyer !</button>
+        <input type="button" onclick="testAll()" value="Vérifier"/>
+    </form>
+</main>
+</body>
+</html>

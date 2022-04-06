@@ -1,3 +1,6 @@
+
+//Acceuil
+
 function pictureLeft(){
     let name = document.getElementById('img').name;
     if ( name === "Iron Man") {
@@ -58,4 +61,44 @@ function pictureRight(){
             }
         }
     }
+}
+
+//Livre d'Or
+
+function checkFirstName(){
+    if (document.getElementById("firstname").value === ""){
+        window.alert("Vous devez rentrer un prénom !")
+    }
+}
+
+function checkName(){
+    if (document.getElementById("name").value === ""){
+        window.alert("Vous devez rentrer un nom !")
+    }
+}
+
+function checkLike(){
+    if ((document.getElementById("YES").checked === false) && (document.getElementById("NO").checked === false)){
+        window.alert("Donnez nous votre retour sur notre travail !")
+    }
+}
+
+function checkPrivacy(){
+    if (document.getElementById("privacy").value === "..."){
+        window.alert("Souhaitez-vous être publié ?")
+    }
+}
+
+function checkNote(){
+    if (document.getElementById("comment").value === "Vous pouvez écrire votre note ici. ;)"){
+        window.alert("Laissez nous une petite note :)")
+    }
+}
+
+function testAll(){
+    checkNote();
+    checkLike();
+    checkPrivacy();
+    checkFirstName();
+    checkName();
 }
