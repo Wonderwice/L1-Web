@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="add links">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_14_41_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_14_41__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_15_52_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_03_2022_15_52__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/fiche.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/fiche_proposition.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="XHTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,9 +45,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TP" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\styve\Documents\Université\semestre 2\Technologie du web\Projet\SITE_czornyj_drui\L1-Web\Content\Forms" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,6 +73,15 @@
       <workItem from="1647440233899" duration="19000" />
       <workItem from="1647440255260" duration="54000" />
       <workItem from="1647511287396" duration="56000" />
+      <workItem from="1647633258661" duration="62000" />
+      <workItem from="1647633323445" duration="19000" />
+      <workItem from="1647633349869" duration="23000" />
+      <workItem from="1647633384465" duration="133000" />
+      <workItem from="1649262677184" duration="234000" />
+      <workItem from="1649262946409" duration="1602000" />
+      <workItem from="1649518763028" duration="6982000" />
+      <workItem from="1649682875199" duration="2355000" />
+      <workItem from="1649685349479" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
