@@ -1,5 +1,5 @@
 
-//Acceuil
+//Acceuil -Alexei-
 
 function pictureLeft(){
     let name = document.getElementById('img').name;
@@ -63,7 +63,7 @@ function pictureRight(){
     }
 }
 
-//Livre d'Or
+//Livre d'Or -Alexei-
 
 function checkFirstName(){
     if (document.getElementById("firstname").value === ""){
