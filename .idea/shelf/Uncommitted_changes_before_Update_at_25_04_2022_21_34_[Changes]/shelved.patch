@@ -1,0 +1,37 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00__Changes_.xml	(revision ccf092bc12ef0cfbbec3ac34e8f944950d45b306)
++++ /dev/null	(revision ccf092bc12ef0cfbbec3ac34e8f944950d45b306)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]" date="1646323221301" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 03/03/2022 17:00 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_03_03_2022_17_00_[Changes]/shelved.patch	(revision ccf092bc12ef0cfbbec3ac34e8f944950d45b306)
++++ /dev/null	(revision ccf092bc12ef0cfbbec3ac34e8f944950d45b306)
+@@ -1,18 +0,0 @@
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n    <mapping directory=\"$PROJECT_DIR$/L1-Web\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+---- a/.idea/vcs.xml	(revision 6ef56b33fc9be33a3fcb82d92da9ec85e2ed1ccd)
+-+++ b/.idea/vcs.xml	(date 1646321003120)
+-@@ -2,6 +2,5 @@
+- <project version="4">
+-   <component name="VcsDirectoryMappings">
+-     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+--    <mapping directory="$PROJECT_DIR$/L1-Web" vcs="Git" />
+-   </component>
+- </project>
+-\ No newline at end of file
