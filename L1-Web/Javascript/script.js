@@ -63,6 +63,24 @@ function pictureRight(){
     }
 }
 
+const inp = document.getElementById('style')) ;
+var main = document.styleSheets[0] ;
+var alt = document.styleSheets[1];
+
+inp.addEventListener('click', switchStyle);
+
+function switchStyle(){
+    if (inp.value === 'Style principale') {
+        inp.value = 'Style alternatif';
+        main = true
+        alt = false
+    } else if (inp.value === 'Style alternatif'){
+        inp = 'Style principale'
+        main = false
+        alt = true
+    }
+}
+
 //Livre d'Or
 
 function checkFirstName(){

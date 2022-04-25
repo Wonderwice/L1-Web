@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="add links">
-      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/fiche.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/fiche_proposition.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1-Web/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Javascript/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L1-Web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="25sPhcQNo5bVrzonRif3Tckvx5j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
