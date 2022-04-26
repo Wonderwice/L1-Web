@@ -63,23 +63,19 @@ function pictureRight(){
     }
 }
 
-let inp = document.getElementById('style') ;
-let main = document.styleSheets[0];
-let alt = document.styleSheets[1];
-
-inp.addEventListener('click', switchStyle);
-
 function switchStyle(){
-    if (inp.value === 'Style principale') {
+    let inp = document.getElementById('style');
+    if (inp.value === 'Style alternatif') {
+        inp.value = 'Style principale';
+        document.styleSheets[0].disabled = true;
+        document.styleSheets[1].disabled = false;
+    } else if (inp.value === 'Style principale'){
         inp.value = 'Style alternatif';
-        main = true
-        alt = false
-    } else if (inp.value === 'Style alternatif'){
-        inp = 'Style principale'
-        main = false
-        alt = true
+        document.styleSheets[0].disabled = false;
+        document.styleSheets[1].disabled = true;
     }
 }
+
 
 //Livre d'Or
 
@@ -122,3 +118,4 @@ function testAll(){
     checkFirstName();
     checkName();
 }
+

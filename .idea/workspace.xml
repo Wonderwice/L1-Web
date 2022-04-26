@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="add links">
+    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="script.js">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="XHTML File" />
         <option value="CSS File" />
+        <option value="XHTML File" />
       </list>
     </option>
   </component>
@@ -74,7 +77,8 @@
       <workItem from="1649682875199" duration="2355000" />
       <workItem from="1649685349479" duration="9000" />
       <workItem from="1650976266678" duration="464000" />
-      <workItem from="1650977183248" duration="312000" />
+      <workItem from="1650977183248" duration="806000" />
+      <workItem from="1650978002694" duration="6193000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -132,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650915333721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="script.js">
+      <created>1650977533030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650977533030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +170,7 @@
     <MESSAGE value="style malvoyant" />
     <MESSAGE value="add readme" />
     <MESSAGE value="add links" />
-    <option name="LAST_COMMIT_MESSAGE" value="add links" />
+    <MESSAGE value="script.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="script.js" />
   </component>
 </project>
