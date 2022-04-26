@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="add links">
-      <change afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/fiche.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L1-Web/Styles/fiche_proposition.css" afterDir="false" />
+    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="add links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/captain_america.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/hulk.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/iron_man.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Collection/thor.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Forms/livre_or.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1-Web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/L1-Web/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -58,7 +49,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2dce805f-e1bf-43a4-891f-84c17b545460" name="Changes" comment="" />
+      <changelist id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="add links" />
       <created>1646312940771</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -82,6 +73,8 @@
       <workItem from="1649518763028" duration="6982000" />
       <workItem from="1649682875199" duration="2355000" />
       <workItem from="1649685349479" duration="9000" />
+      <workItem from="1650976266678" duration="464000" />
+      <workItem from="1650977183248" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -132,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646422547273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add links">
+      <created>1650915333721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650915333721</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

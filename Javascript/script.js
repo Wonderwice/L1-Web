@@ -63,9 +63,9 @@ function pictureRight(){
     }
 }
 
-const inp = document.getElementById('style')) ;
-var main = document.styleSheets[0] ;
-var alt = document.styleSheets[1];
+let inp = document.getElementById('style') ;
+let main = document.styleSheets[0];
+let alt = document.styleSheets[1];
 
 inp.addEventListener('click', switchStyle);
 
@@ -112,6 +112,8 @@ function checkNote(){
         window.alert("Laissez nous une petite note :)")
     }
 }
+
+// Fin Livre d'Or
 
 function testAll(){
     checkNote();
