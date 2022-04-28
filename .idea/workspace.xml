@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="script.js">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="button index.xhtml">
+      <change afterPath="$PROJECT_DIR$/Content/Forms/contact.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Forms/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/captain_america.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/hulk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/hulk.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/iron_man.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/thor.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Forms/fiche.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/fiche.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Forms/livre_or.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/livre_or.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Miscellaneous/sitemap.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/index_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +22,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="XHTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,12 +48,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +87,14 @@
       <workItem from="1650976266678" duration="464000" />
       <workItem from="1650977183248" duration="806000" />
       <workItem from="1650978002694" duration="6193000" />
+      <workItem from="1650984204926" duration="103000" />
+      <workItem from="1651000257101" duration="926000" />
+      <workItem from="1651052754665" duration="5117000" />
+      <workItem from="1651066146981" duration="383000" />
+      <workItem from="1651066540621" duration="1099000" />
+      <workItem from="1651091393320" duration="1905000" />
+      <workItem from="1651166824325" duration="2249000" />
+      <workItem from="1651178788411" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -143,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650977533030</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="button index.xhtml">
+      <created>1650984255935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650984255935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +194,7 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="add links" />
     <MESSAGE value="script.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="script.js" />
+    <MESSAGE value="button index.xhtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="button index.xhtml" />
   </component>
 </project>

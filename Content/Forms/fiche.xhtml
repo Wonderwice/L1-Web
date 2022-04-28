@@ -17,6 +17,7 @@
             <li><a href="fiche.xhtml">Proposez nous des fiches</a></li>
             <li><a href="../Miscellaneous/synoptic.xhtml">Récapitulatif</a></li>
             <li><a href="livre_or.xhtml">Livre d'Or</a></li>
+            <li><a href="contact.xhtml">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -34,18 +35,18 @@
             <tbody>
             <tr>
                 <td><label for="first_movie">1ère Position</label></td>
-                <td><input id="first_movie" type="text"/></td>
-                <td><label><input id="first_movie_year" type="text"/></label></td>
+                <td><input id="first_movie" type="text" onblur="checkMovie()"/></td>
+                <td><label><input id="first_movie_year" type="number"/></label></td>
             </tr>
             <tr>
                 <td><label for="second_movie">2ème Position</label></td>
                 <td><input id="second_movie" type="text"/></td>
-                <td><label><input id="second_movie_year" type="text"/></label></td>
+                <td><label><input id="second_movie_year" type="number"/></label></td>
             </tr>
             <tr>
                 <td><label for="third_movie">3ème Position</label></td>
                 <td><input id="third_movie" type="text"/></td>
-                <td><label><input id="third_movie_year" type="text"/></label></td>
+                <td><label><input id="third_movie_year" type="number"/></label></td>
             </tr>
             </tbody>
         </table>

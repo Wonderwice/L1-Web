@@ -76,6 +76,14 @@ function switchStyle(){
     }
 }
 
+// Proposition de fiche
+
+function checkMovie(){
+    if (document.getElementById('first_movie').value === ""){
+        window.alert("Veuillez rentrez un nom de film !")
+    }
+}
+//Sitemap
 
 //Livre d'Or
 
@@ -109,13 +117,12 @@ function checkNote(){
     }
 }
 
-// Fin Livre d'Or
-
 function testAll(){
     checkNote();
     checkLike();
     checkPrivacy();
     checkFirstName();
     checkName();
+    checkMovie();
 }
 
