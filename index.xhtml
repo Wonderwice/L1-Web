@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="author" content="Alexeï Czornyj et Styven Drui"/>
     <title> Films du MCU </title>
-    <link rel="stylesheet" type="text/css" media="all" href="Styles/index_style.css"/>
+    <link id="style" rel="stylesheet" type="text/css" media="all" href="Styles/index_style.css"/>
     <link rel="alternate stylesheet" type="text/css" media="all" href="Styles/alternative_style.css" disabled="disabled"/>
     <script src="Javascript/script.js"></script>
 </head>
@@ -18,8 +18,7 @@
                 <li><a href="Content/Forms/fiche.xhtml">Proposez nous des fiches</a></li>
                 <li><a href="Content/Miscellaneous/synoptic.xhtml">Récapitulatif</a></li>
                 <li><a href="Content/Forms/livre_or.xhtml">Livre d'Or</a></li>
-                <li><a href="Content/Forms/contact.xhtml">Contact</a></li>
-                <li><form><input type="button" id="style" value="Style alternatif" onclick="switchStyle()"/></form></li>
+                <li><button id="style_exchange" value ="classic" onclick="switchStyle()">Style alternatif</button></li>
             </ul>
         </nav>
 </header>
@@ -42,6 +41,9 @@
         </div>
     </section>
 </main>
+<footer>
+    <p>Et ci-joint nos liens pour nous envoyer un mail : <a id="mailtoalex" onclick="mailAlex()">Alexeï</a> et <a id="mailtostyven" onclick="mailStyven()">Styven</a> // Vous pouvez aussi remplir le formulaire <a href="Content/Forms/contact.xhtml">ici</a></p>
+</footer>
 </body>
 </html>
 

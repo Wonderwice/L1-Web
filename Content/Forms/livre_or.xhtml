@@ -24,6 +24,7 @@
 <main>
     <form action="http://voca.univ-poitiers.fr/~subrenat/cours_web/traitement.php" method="post">
         <fieldset>
+            <legend>Dites-nous en plus sur vous</legend>
             <label for="name">Votre nom: </label>
             <input type="text" id="name" name="nom" onblur="checkName()"/>
             <label for="firstname">Votre prénom: </label>
@@ -42,6 +43,7 @@
             </select>
         </fieldset>
         <fieldset>
+            <legend>Votre petite note!</legend>
             <label for="comment">Votre commentaire doit être :</label>
             <textarea id="comment" rows="10" cols="40" name="texte" onblur="checkNote()">Vous pouvez écrire votre note ici. ;)</textarea>
         </fieldset>

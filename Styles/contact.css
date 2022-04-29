@@ -1,15 +1,16 @@
 @import "main_style.css";
 
-body{
-    font-family: Arial, sans-serif;
+form{
+    display: flex;
+    justify-content: space-around;
 }
+
 form input, form textarea {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     width: 300px;
-    font-family: Arial, sans-serif;
     font-size: 16px;
     border-radius: 5px;
     border-width: 1px;

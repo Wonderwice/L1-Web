@@ -21,18 +21,22 @@
         </ul>
     </nav>
 </header>
-<h1>Contactez-nous</h1>
-<p>Pour toute demande, remplissez le formulaire ci-dessous.</p>
-<form method="post" action="mail.php">
-    <label for="nom">Nom</label>
-    <input id="nom" type="text" name="nom" required = "required"/>
-    <label for="email">Email</label>
-    <input id="email" type="email" name="email" required = "required"/>
-    <label for="sujet">Sujet</label>
-    <input  id="sujet" type="text" name="sujet" required = "required"/>
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="10" cols="40" required = "required"/>
-    <input type="submit" value="Envoyer le message"/>
-</form>
+<main>
+    <h1>Contactez-nous</h1>
+    <form method="post" action="mail.php">
+        <fieldset>
+            <legend>Pour toute demande, remplissez le formulaire ci-dessous.</legend>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom" required = "required"/>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required = "required"/>
+            <label for="sujet">Sujet</label>
+            <input  id="sujet" type="text" name="sujet" required = "required"/>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="10" cols="40" required = "required"/>
+            <input type="submit" value="Envoyer le message"/>
+        </fieldset>
+    </form>
+</main>
 </body>
 </html>

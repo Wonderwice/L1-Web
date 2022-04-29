@@ -78,36 +78,15 @@ header img{
 /*********************************************
 * Images dans les éléments de classe affiche *
 *********************************************/
-.affiche img{
+.fiches img{
     display: none;
-}
-
-/*******************************************************
-* Element situé juste après le premier élément affiche *
-*******************************************************/
-.affiche:first-child::after{
-    content:"Lien vers la fiche de Iron Man";
-}
-
-/********************************************************
-* Element situé juste après le deuxième élément affiche *
-********************************************************/
-.affiche:nth-child(2)::after{
-    content:"Lien vers la fiche de Hulk";
 }
 
 /*********************************************************
 * Element situé juste après le troisième élément affiche *
 *********************************************************/
-.affiche:nth-child(3)::after{
-    content: "Lien vers la fiche de Thor";
-}
-
-/*******************************************************
-* Element situé juste après le dernier élément affiche *
-*******************************************************/
-.affiche:last-child::after{
-    content: "Lien vers la fiche de Captain America";
+.affiche:nth-child(2)::after{
+    content: "Lien vers la fiche de Iron Man";
 }
 
 /**********************************

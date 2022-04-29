@@ -64,15 +64,12 @@ function pictureRight(){
 }
 
 function switchStyle(){
-    let inp = document.getElementById('style');
-    if (inp.value === 'Style alternatif') {
-        inp.value = 'Style principale';
-        document.styleSheets[0].disabled = true;
-        document.styleSheets[1].disabled = false;
-    } else if (inp.value === 'Style principale'){
-        inp.value = 'Style alternatif';
-        document.styleSheets[0].disabled = false;
-        document.styleSheets[1].disabled = true;
+    if (document.getElementById("style_exchange").value === "classic"){
+        document.getElementById("style").href = "Styles/alternative_style.css";
+        document.getElementById("style_exchange").value = "alternative"
+    }else{
+        document.getElementById("style").href = "Styles/index_style.css";
+        document.getElementById("style_exchange").value = "classic"
     }
 }
 
@@ -126,3 +123,35 @@ function testAll(){
     checkMovie();
 }
 
+function mailAlex(){
+    if (navigator.language === "fr"){
+        let d = new Date();
+        let subject = d.getDay()+"-"+d.getMonth()+"-"+d.getFullYear()+" : "+d.getHours()+"h"+d.getMinutes();
+        document.getElementById("mailtoalex").href = "mailto:alexei.czornyj@etu.univ-poitiers.fr?subject=" + subject
+    } else {
+        let d = new Date();
+        let subject = d.getMonth()+"-"+d.getDay()+"-"+d.getFullYear()+" : "+d.getHours()+"h"+d.getMinutes();
+        document.getElementById("mailtoalex").href = "mailto:alexei.czornyj@etu.univ-poitiers.fr?subject=" + subject
+    }
+}
+
+function mailStyven(){
+    if (navigator.language === "fr"){
+        let d = new Date();
+        let subject = d.getDay()+"-"+d.getMonth()+"-"+d.getFullYear()+" : "+d.getHours()+"h"+d.getMinutes();
+        document.getElementById("mailtoalex").href = "mailto:styven.drui@etu.univ-poitiers.fr?subject=" + subject
+    } else {
+        let d = new Date();
+        let subject = d.getMonth()+"-"+d.getDay()+"-"+d.getFullYear()+" : "+d.getHours()+"h"+d.getMinutes();
+        document.getElementById("mailtoalex").href = "mailto:styven.drui@etu.univ-poitiers.fr?subject=" + subject
+    }
+}
+
+function hide(){
+    let item = document.getElementById("container");
+    if (item.style.display === ""){
+        item.style.display = "none"
+    }else{
+        item.style.display = ""
+    }
+}
