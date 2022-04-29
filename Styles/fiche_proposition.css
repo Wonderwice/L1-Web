@@ -1,17 +1,19 @@
+/* Auteur: Styven Drui */
+
 @import "main_style.css";
 
-form{
+form {
     padding: 5em;
     margin: auto;
     text-align: center;
 }
 
-label[for*="comment"]{
+label[for*="comment"] {
     margin-left: 25%;
     display: flex;
 }
 
-table{
+table {
     text-align: center;
     margin: auto;
     padding: 2em;

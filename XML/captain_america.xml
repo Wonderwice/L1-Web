@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Auteur Styven Drui -->
 <!DOCTYPE movie SYSTEM "movie.dtd">
 <movie annee_sortie="2011" durée="124min">
     <fiche_technique>
@@ -21,7 +22,8 @@
         battre aux côtés des Alliés, Steve Rogers, frêle et timide, se porte volontaire pour participer à un programme
         expérimental qui va le transformer en un super soldat connu sous le nom de Captain America.
         Sous le commandement du colonel Chester Phillips, il s'apprête à affronter l'organisation scientifique secrète
-        des nazis, aux côtés de Bucky Barnes et Peggy Carter.</synopsis>
+        des nazis, aux côtés de Bucky Barnes et Peggy Carter.
+    </synopsis>
     <bande_originale>
         <son numero="1" titre="Captain America Main Titles" longeur="0:56"/>
         <son numero="2" titre="Frozen Wasteland" longeur="1:53"/>

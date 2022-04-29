@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Auteur Alexei Czornyj -->
 <!DOCTYPE movie SYSTEM "movie.dtd">
 <movie annee_sortie="2010" durée="126min">
     <fiche_technique>
@@ -20,9 +21,13 @@
         <société_prod>Marvel Studios</société_prod>
         <société_prod>Fairview Entertainment</société_prod>
     </fiche_technique>
-    <synopsis>Tony Stark est un industriel milliardaire et un inventeur de génie qui est kidnappé et forcé de construire une arme dévastatrice.
-              Au lieu de cela, utilisant son intelligence et son ingéniosité, Tony construit une armure de haute technologie et échappe à la captivité.
-              Lorsqu'il découvre un complot néfaste aux implications mondiales, il enfile sa puissante armure et jure de protéger le monde en tant qu'Iron Man.</synopsis>
+    <synopsis>Tony Stark est un industriel milliardaire et un inventeur de génie qui est kidnappé et forcé de construire
+        une arme dévastatrice.
+        Au lieu de cela, utilisant son intelligence et son ingéniosité, Tony construit une armure de haute technologie
+        et échappe à la captivité.
+        Lorsqu'il découvre un complot néfaste aux implications mondiales, il enfile sa puissante armure et jure de
+        protéger le monde en tant qu'Iron Man.
+    </synopsis>
     <bande_originale>
         <son numero="1" titre="Driving With The Top Down" longeur="3:10"/>
         <son numero="2" titre="Iron Man (2008 version) (John O'Brien and Rick Boston)" longeur="1:05"/>
@@ -47,8 +52,12 @@
     <note>74</note>
     <box_office>585 366 247 $</box_office>
     <distinctions>
-        <nomination type="Teen Choice Awards 2008">Meilleur acteur dans un film d'action/aventure pour Robert Downey Jr.</nomination>
-        <nomination type="Teen Choice Awards 2008">Meilleure actrice dans un film d'action/aventure pour Gwyneth Paltrow</nomination>
+        <nomination type="Teen Choice Awards 2008">Meilleur acteur dans un film d'action/aventure pour Robert Downey
+            Jr.
+        </nomination>
+        <nomination type="Teen Choice Awards 2008">Meilleure actrice dans un film d'action/aventure pour Gwyneth
+            Paltrow
+        </nomination>
         <nomination type="Teen Choice Awards 2008">Meilleur méchant au cinéma pour Jeff Bridges</nomination>
         <nomination type="MTV Movie Awards 2009">Meilleur film</nomination>
         <nomination type="MTV Movie Awards 2009">Meilleur acteur pour Robert Downey Jr.</nomination>

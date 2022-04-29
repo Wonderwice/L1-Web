@@ -3,14 +3,14 @@
 /*******************
 * Corps de la page *
 ********************/
-body{
+body {
     margin: 0 auto;
 }
 
 /************
 * Element p *
 ************/
-p{
+p {
     padding: 5px;
 }
 
@@ -20,11 +20,12 @@ p{
 table {
     padding: 10px;
 }
+
 /****************************************************
 * Listes ordonnées, non ordonnées et leurs éléments *
 ****************************************************/
 
-ul, ol, li{
+ul, ol, li {
     list-style: none;
 }
 
@@ -32,7 +33,7 @@ ul, ol, li{
 * Elements contenus dans une liste *
 ***********************************/
 
-ol li{
+ol li {
     font-size: large;
     padding: 5px;
 }
@@ -41,7 +42,7 @@ ol li{
 * Lien contenant l'attribut href *
 **************************************/
 
-a[href]{
+a[href] {
     text-decoration: none;
     color: inherit;
 }
@@ -76,7 +77,7 @@ header img {
 * Liste dans le menu de navigation *
 ***********************************/
 
-nav ul{
+nav ul {
     display: flex;
     width: 130%;
     justify-content: space-between;
@@ -86,7 +87,7 @@ nav ul{
 * Elements contenus dans une liste contenue dans un menu de navigation *
 ***********************************************************************/
 
-nav > ul > li{
+nav > ul > li {
     font-size: 150%;
     color: white;
 }
@@ -95,7 +96,7 @@ nav > ul > li{
 * Titres de niveaux 2 et 3 *
 ***************************/
 
-h2, h3{
+h2, h3 {
     font-size: 50px;
     font-weight: 100;
     position: relative;
@@ -105,7 +106,7 @@ h2, h3{
 * Titres de niveau 3 *
 *********************/
 
-h3{
+h3 {
     font-size: 35px;
     padding: 5px;
 }
@@ -114,7 +115,7 @@ h3{
 * Propriété de l'espace situé avant les titres de niveaux 2 et 3 *
 *****************************************************************/
 
-h2::before, h3::before{
+h2::before, h3::before {
     content: "";
     position: absolute;
     background-color: #ff0000;
@@ -127,7 +128,7 @@ h2::before, h3::before{
 * Propriété de l'espace situé avant les titres de niveau 3 *
 ***********************************************************/
 
-h3::before{
+h3::before {
     height: 5px;
 }
 
@@ -135,7 +136,7 @@ h3::before{
 * Pied de page *
 ***************/
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
 }

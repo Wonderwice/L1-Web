@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Auteur Alexei Czornyj -->
 <!DOCTYPE movie SYSTEM "movie.dtd">
 <movie annee_sortie="2008" durée="112min">
     <fiche_technique>
@@ -24,9 +25,12 @@
         La force destructrice de Hulk attire le Général Thunderbolt Ross et son bras droit Blonsky qui rêvent de
         l'utiliser à des fins militaires. Ils tentent de développer un sérum pour créer des soldats surpuissants.
         De retour aux Etats-Unis, Bruce Banner se découvre un nouvel ennemi. Après avoir essayé le sérum expérimental,
-        Blonsky est devenu L'Abomination, un monstre incontrôlable dont la force pure est même supérieure à celle de Hulk.
+        Blonsky est devenu L'Abomination, un monstre incontrôlable dont la force pure est même supérieure à celle de
+        Hulk.
         Devenu fou, il s'est transformé en plein coeur de New York.
-        Pour sauver la ville de la destruction totale, Bruce Banner va devoir faire appel au monstre qui sommeille en lui...</synopsis>
+        Pour sauver la ville de la destruction totale, Bruce Banner va devoir faire appel au monstre qui sommeille en
+        lui...
+    </synopsis>
     <bande_originale>
         <son numero="1" titre="The Arctic" longeur="2:47"/>
         <son numero="2" titre="Main Title" longeur="2:39"/>

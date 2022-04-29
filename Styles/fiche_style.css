@@ -6,7 +6,7 @@
 * La grille qui contient mise en page *
 **************************************/
 
-.grid{
+.grid {
     display: grid;
     grid-template-areas:
     'left middle-left middle-right right';
@@ -37,7 +37,7 @@
 * Premier enfant de l'element de gauche *
 ****************************************/
 
-#left:first-child{
+#left:first-child {
     margin-bottom: 40px;
 }
 
@@ -45,7 +45,7 @@
 * Element du milieu à gauche *
 *****************************/
 
-#middle-left{
+#middle-left {
     display: flex;
     flex-flow: column;
     grid-area: middle-left;
@@ -71,7 +71,7 @@
 * Entête du tableau contenu dans l'élément de droite *
 *****************************************************/
 
-#right table thead{
+#right table thead {
     font-style: italic;
 }
 
@@ -79,6 +79,6 @@
 * Image située au milieu à gauche *
 **************************************/
 
-#middle-right img{
+#middle-right img {
     padding-top: 30px;
 }

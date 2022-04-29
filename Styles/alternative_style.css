@@ -1,23 +1,24 @@
-/* Auteur: Alexeï Czornyj */
+/* Auteur: Styven Drui */
 
 /*****************
 * L'élément body *
 *****************/
 
-body{
+body {
     font-size: xx-large;
 }
 
 /************
 * Element p *
 ************/
-p{
+p {
     padding: 5px;
 }
+
 /**************
 * L'élément a *
 **************/
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -26,7 +27,7 @@ a{
 * Listes ordonnées, non ordonnées et leurs éléments *
 ****************************************************/
 
-ol, ul, li{
+ol, ul, li {
     list-style: none;
 }
 
@@ -34,7 +35,7 @@ ol, ul, li{
 * Listes ordonnées, non ordonnées et leurs éléments *
 ****************************************************/
 
-header, nav ul{
+header, nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,14 +44,14 @@ header, nav ul{
 /******************
 * menu navigation *
 ******************/
-nav{
+nav {
     width: 80%;
 }
 
 /*********************************
 * Images contenues dans l'entête *
 *********************************/
-header img{
+header img {
     height: auto;
     width: auto;
     max-width: 350px;
@@ -62,7 +63,7 @@ header img{
 /******************************
 * Elements de classe affiches *
 ******************************/
-.affiches{
+.affiches {
     display: flex;
     flex-flow: column;
     padding: 40px;
@@ -71,21 +72,21 @@ header img{
 /*****************************
 * Elements de classe affiche *
 *****************************/
-.affiche{
+.affiche {
     padding: 10px;
 }
 
 /*********************************************
 * Images dans les éléments de classe affiche *
 *********************************************/
-.fiches img{
+.fiches img {
     display: none;
 }
 
 /*********************************************************
 * Element situé juste après le troisième élément affiche *
 *********************************************************/
-.affiche:nth-child(2)::after{
+.affiche:nth-child(2)::after {
     content: "Lien vers la fiche de Iron Man";
 }
 
@@ -93,6 +94,6 @@ header img{
 * Enfant de type a d'un élément p *
 **********************************/
 
-p > a{
+p > a {
     border: black solid 1px;
 }

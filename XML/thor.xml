@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Auteur Styven Drui -->
 <!DOCTYPE movie SYSTEM "movie.dtd">
 <movie annee_sortie="2011" durée="114min">
     <fiche_technique>
@@ -20,11 +21,13 @@
         </main_actors>
         <société_prod>Marvel Studios</société_prod>
     </fiche_technique>
-    <synopsis>Le roi Odin règne avec sagesse sur son royaume. Une entente maintient la paix avec les Géants du monde glacé de Jotunheim.
+    <synopsis>Le roi Odin règne avec sagesse sur son royaume. Une entente maintient la paix avec les Géants du monde
+        glacé de Jotunheim.
         Les gestes irréfléchis du jeune Thor, pressenti pour prendre la place de son père sur le trône,
         mettent cependant en péril la paix fragile entre les deux peuples, ce qui pousse son père à le bannir sur Terre.
         Dépouillé de ses pouvoirs, Thor doit apprendre la véritable valeur d'un roi. Pendant ce temps,
-        le demi-frère de Thor essaie de prendre possession du trône.</synopsis>
+        le demi-frère de Thor essaie de prendre possession du trône.
+    </synopsis>
     <bande_originale>
         <son numero="1" titre="Chasing the Storm" longeur="3:11"/>
         <son numero="2" titre="Prologue" longeur="3:09"/>

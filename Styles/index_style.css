@@ -2,15 +2,15 @@
 
 @import "main_style.css";
 
-main{
+main {
     display: flex;
 }
 
-aside{
+aside {
     width: 50%;
 }
 
-aside p{
+aside p {
     padding-left: 5em;
     font-size: large;
 }
@@ -19,64 +19,33 @@ aside p{
 * Propriété de l'espace situé avant l'élément identifié comme titre principal*
 *****************************************************************************/
 
-#main-title::before{
+#main-title::before {
     all: unset;
 }
+
 /******************************************
 * Element identifié comme titre principal *
 ******************************************/
 
-#main-title{
+#main-title {
     color: black;
     font-size: 60px;
     padding: 10px 50px;
     font-weight: 100;
 }
 
-.fiches{
+.fiches {
     text-align: center;
 }
 
-.affiches{
+.affiches {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-p > img{
+p > img {
     height: 25%;
     width: 25%;
     padding: 0;
-}
-
-/***********************************************************************
-* Comportement d'une image contenue dans un lien lorsqu'on la survole *
-**********************************************************************
-
-a img:hover{
-    height: 510px;
-    width: 360px;
-}
-
-/****************************
-* Elements de classe fiches *
-****************************
-
-.fiches{
-    padding-left: 30px;
-}
-
-/******************************
-* Elements de classe affiches *
-******************************
-.affiches{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/******************************
-* Elements de classe affiche *
-*****************************
-.affiche {
-    flex: 1;
 }

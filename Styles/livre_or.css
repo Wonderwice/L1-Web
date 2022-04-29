@@ -1,13 +1,15 @@
+/* Auteur: Alexeï Czornyj */
+
 @import "main_style.css";
 
-main form{
+main form {
     padding: 3em;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
 }
 
-label[for*="comment"]{
+label[for*="comment"] {
     margin-left: 25%;
     display: flex;
 }

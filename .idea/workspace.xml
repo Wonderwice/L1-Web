@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="button index.xhtml">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_04_2022_21_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_04_2022_21_34__Changes_.xml" afterDir="false" />
+    <list default="true" id="9c8d556d-71b7-475a-91fa-35366782edb7" name="Changes" comment="Commit final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/captain_america.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/captain_america.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/hulk.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/hulk.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/iron_man.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/iron_man.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Collection/thor.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Collection/thor.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Forms/contact.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/contact.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Forms/fiche.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/fiche.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Forms/livre_or.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Forms/livre_or.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Miscellaneous/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Miscellaneous/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Miscellaneous/sitemap.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Miscellaneous/sitemap.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Miscellaneous/synoptic.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Miscellaneous/synoptic.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Content/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Images/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/alternative_fiche.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/alternative_fiche.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/alternative_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/alternative_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/fiche_proposition.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/fiche_proposition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/fiche_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/fiche_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/livre_or.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/livre_or.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styles/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/main_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/captain_america.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/captain_america.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/hulk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/hulk.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/XML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/iron_man.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/iron_man.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/movie.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/XML/movie.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/thor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XML/thor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +118,7 @@
       <workItem from="1651091393320" duration="1905000" />
       <workItem from="1651166824325" duration="2249000" />
       <workItem from="1651178788411" duration="1850000" />
-      <workItem from="1651243880555" duration="7629000" />
+      <workItem from="1651243880555" duration="8581000" />
     </task>
     <task id="LOCAL-00001" summary="add new files in Miscellaneous">
       <created>1646320743778</created>
@@ -168,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650984255935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Modification pour cahier des charges">
+      <created>1651252181112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651252181112</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +226,8 @@
     <MESSAGE value="add links" />
     <MESSAGE value="script.js" />
     <MESSAGE value="button index.xhtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="button index.xhtml" />
+    <MESSAGE value="Modification pour cahier des charges" />
+    <MESSAGE value="Commit final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit final" />
   </component>
 </project>

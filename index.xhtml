@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
 <head>
     <meta charset="utf-8"/>
     <meta name="author" content="Alexeï Czornyj et Styven Drui"/>
     <title> Films du MCU </title>
     <link id="style" rel="stylesheet" type="text/css" media="all" href="Styles/index_style.css"/>
-    <link rel="alternate stylesheet" type="text/css" media="all" href="Styles/alternative_style.css" disabled="disabled"/>
+    <link rel="alternate stylesheet" type="text/css" media="all" href="Styles/alternative_style.css"
+          disabled="disabled"/>
     <script src="Javascript/script.js"></script>
 </head>
 <body>
 <header>
     <img src="Images/marvel.png" alt="Logo Marvel"/>
-        <nav>
-            <ul>
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="Content/Miscellaneous/sitemap.xhtml">Plan du site</a></li>
-                <li><a href="Content/Forms/fiche.xhtml">Proposez nous des fiches</a></li>
-                <li><a href="Content/Miscellaneous/synoptic.xhtml">Récapitulatif</a></li>
-                <li><a href="Content/Forms/livre_or.xhtml">Livre d'Or</a></li>
-                <li><button id="style_exchange" value ="classic" onclick="switchStyle()">Style alternatif</button></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="Content/Miscellaneous/sitemap.xhtml">Plan du site</a></li>
+            <li><a href="Content/Forms/fiche.xhtml">Proposez nous des fiches</a></li>
+            <li><a href="Content/Miscellaneous/synoptic.xhtml">Récapitulatif</a></li>
+            <li><a href="Content/Forms/livre_or.xhtml">Livre d'Or</a></li>
+            <li>
+                <button id="style_exchange" value="classic" onclick="switchStyle()">Style alternatif</button>
+            </li>
+        </ul>
+    </nav>
 </header>
 <main>
     <aside>
         <h2 id="main-title">Vous trouverez ici les premiers films de l'équipe Avengers</h2>
         <p>Ce site contient différentes fiches récapitulatives des premiers films Marvel,
             nous avons choisi de les faire sur les héros qui constituent la première équipe des Avengers.
-            Vous retrouvez également un livre d'Or pour nous laisser un petit mot, ainsi qu'un formulaire pour nous proposer d'autres fiches.
+            Vous retrouvez également un livre d'Or pour nous laisser un petit mot, ainsi qu'un formulaire pour nous
+            proposer d'autres fiches.
         </p>
     </aside>
     <section class="fiches">
@@ -42,7 +46,9 @@
     </section>
 </main>
 <footer>
-    <p>Et ci-joint nos liens pour nous envoyer un mail : <a id="mailtoalex" onclick="mailAlex()">Alexeï</a> et <a id="mailtostyven" onclick="mailStyven()">Styven</a> // Vous pouvez aussi remplir le formulaire <a href="Content/Forms/contact.xhtml">ici</a></p>
+    <p>Et ci-joint nos liens pour nous envoyer un mail : <a id="mailtoalex" onclick="mailAlex()">Alexeï</a> et <a
+            id="mailtostyven" onclick="mailStyven()">Styven</a> // Vous pouvez aussi remplir le formulaire <a
+            href="Content/Forms/contact.xhtml">ici</a></p>
 </footer>
 </body>
 </html>
